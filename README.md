@@ -128,6 +128,9 @@ streamlit run app.py
 ## 🌟 Key Features
 
 ✔️ Interactive web interface (Streamlit)
+
 ✔️ Collaborative filtering recommendation engine
+
 ✔️ Built with Nearest Neighbors algorithm
+
 ✔️ Lightweight, easy to deploy, extendable to movies/music/products
