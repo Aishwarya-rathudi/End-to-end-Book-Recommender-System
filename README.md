@@ -75,15 +75,12 @@ Steps for building the model:
 
 ## 📊 Workflow Diagram  
 
-```mermaid
 flowchart TD
-    A[📂 Dataset] --> B[🔍 Preprocessing<br>(Ratings, User-Item Matrix)]
+    A[Dataset] --> B[Preprocessing - Ratings, User-Item Matrix]
+    B --> C[Nearest Neighbors Model - Collaborative Filtering]
+    C --> D[Recommendation Engine]
+    D --> E[Streamlit Web App - User Input to Recommendations]
 
-    B --> C[🤖 Nearest Neighbors Model<br>(Collaborative Filtering)]
-
-    C --> D[📚 Recommendation Engine]
-
-    D --> E[🌐 Streamlit Web App<br>(User Input → Recommended Books)]
 
 ##  🛠 Tech Stack
 
