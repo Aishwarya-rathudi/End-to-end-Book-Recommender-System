@@ -54,9 +54,15 @@ The system helps users discover new books based on **ratings and user-item inter
 
 ## 📊 Dataset  
 
-- Dataset contains information about **books, users, and ratings**.  
-- Features include: book titles, authors, ratings, and user feedback.  
-- [🔗 Dataset Link](#) *(Add link here)*  
+The project uses the Book Recommendation Dataset from Kaggle [Book Recommendation Dataset on Kaggle](https://www.kaggle.com/datasets/ra4u12/bookrecommendation).
+
+  which contains three primary files:
+  
+- books.csv – Includes book metadata (titles, authors, publishers, and images).
+
+- users.csv – Anonymized user IDs for privacy.
+
+- ratings.csv – Contains user-item interactions such as ratings.
 
 ---
 
