@@ -82,6 +82,7 @@ Steps for building the model:
 ## 📊 Workflow Diagram  
 
 flowchart TD
+
     A[Dataset] --> B[Preprocessing - Ratings, User-Item Matrix]
     
     B --> C[Nearest Neighbors Model - Collaborative Filtering]
