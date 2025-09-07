@@ -77,8 +77,11 @@ Steps for building the model:
 
 flowchart TD
     A[Dataset] --> B[Preprocessing - Ratings, User-Item Matrix]
+    
     B --> C[Nearest Neighbors Model - Collaborative Filtering]
+    
     C --> D[Recommendation Engine]
+    
     D --> E[Streamlit Web App - User Input to Recommendations]
 
 
@@ -93,25 +96,26 @@ Visualization: Matplotlib, Seaborn
 Framework: Streamlit 🌐
 
 ## 🚀 How to Run
-1️⃣ Clone the Repository
-git clone https://github.com/entbappy/Books-Recommender-System-Using-Machine-Learning.git
-cd Books-Recommender-System-Using-Machine-Learning
+1️⃣ Create Conda Environment
 
-2️⃣ Create Conda Environment
 conda create -n books python=3.7.10 -y
+
 conda activate books
 
-3️⃣ Install Requirements
+2️⃣  Install Requirements
+
 pip install -r requirements.txt
 
-4️⃣ Generate the Model
+3️⃣ Generate the Model
 
 Run the notebook:
 
 Books Recommender.ipynb
 
-5️⃣ Launch the App
+4️⃣ Launch the App
+
 streamlit run app.py
+
 
 ## 📈 Results
 
